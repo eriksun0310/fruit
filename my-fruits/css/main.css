@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+  .fruit{
+    background:rgb(255, 179, 27);
+  }
+  .fruit h2{
+    text-align: center;
+    padding-top: 14px;
+    color: rgb(170, 162, 128);
+  }
+  /*--- navigation bar ---*/
+  .navbar{
+    background:rgb(250, 172, 17);
+  }
+  .nav-link,
+  .navbar-brand {
+    color: #fff;
+    cursor: pointer;/* 指向物件讓鼠標變手指 */
+  }
+  .nav-link {
+    margin-right: 1em !important;
+  }
+  .nav-link:hover {
+    color: #000;
+  }
+  .navbar-collapse {
+    justify-content: flex-end; /* 讓導覽列排至尾部(end) */
+  }
+  .header {
+    background-image: url('../images/下載.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  /* 使背景圖變暗 */
+  .overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  .description {
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+  }
+  .description h1 {
+    color: #c955b9;
+  }
+  .description p {
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+  .description button {
+    border:1px solid #fff;
+    background:rgb(255, 179, 27);
+    border-radius: 8;
+    color:#fff;
+    font-family: 'Noto Sans TC', sans-serif;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  .description button:hover {
+    border:1px solid #fff;
+    background:rgb(254, 244, 99);
+    color:#000;
+  }
+  /*footer */
+  .page-footer {
+    background-color: rgb(235, 182, 152);
+    color: rgb(0, 0, 0);
+    padding: 5px 5px;
+
+  }
+  .footer-copyright {
+    color:rgb(73, 73, 73);
+  } 
+
+.cart{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+/* card垂直置中 */
+.item{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}

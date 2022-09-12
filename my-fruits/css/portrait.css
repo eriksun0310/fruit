@@ -1,0 +1,32 @@
+/* RWD設置 */
+@media(max-width:300px) {
+    .description h1{
+        font-size: 2rem;
+    }
+    .description p {
+        font-size: 1rem;
+        width: 100%;
+    }
+    .description button {
+        font-size: 1.3rem;
+    }
+    
+}
+
+@media (max-width:768px) {
+    .description{
+        width: 90%;
+    }
+    .description h1{
+        font-size: 2rem;
+    }
+    .description p {
+        font-size: 1rem;
+        width: 100%;
+    }
+    .description button {
+        font-size: 1.3rem;
+    }
+
+
+}
